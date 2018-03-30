@@ -1,0 +1,21 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background-image: url("back8.jpg");
+}
+form{
+	margin: 100px 450px;
+	font-size: 23px;
+
+}
+#i8{
+	margin-left: 91px;
+}
+#i9{
+	margin-left: 60px;
+}
+input{
+	height: 30px;
+	width: 200px;
+}

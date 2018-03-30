@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign up</title>
+	<meta name="viewport" content="width=device-width, initial scale=1.0">
+	<link rel="stylesheet" type="text/css" href="Sign up.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+	<script type="text/javascript">
+	function validateform() {
+		var i9=document.getElementById('i9').value;
+		var i10=document.getElementById('i10').value;
+		var ok=true;
+		if(i9!=i10){
+			document.getElementById('i9').style.borderColor="#E34234";
+			document.getElementById('i10').style.borderColor="#E34234";
+			ok=false;
+		}
+		else{
+			document.getElementById('form').submit();
+		}
+	}
+		
+	</script>
+
+
+</head>
+<body>
+<img src="signup.jpg" width="100%" height="100px">
+<form id="form" method="post" action="Tezon Laptop Store.html" name="myForm" onsubmit="return validateform()"> 
+<div ng-app="myApp" name="myForm">
+	<fieldset>
+		<legend>Registration</legend>
+		Full Name       :<input id="i1" type="text" name="Full Name" ng-model="firstName" required><br><br>
+		Date of Birth   :<input id="i2" type="date" name="date" required><br><br>
+		Gender          :<input id="i3" type="radio" name="Gender" value="Female" checked>Female
+		                :<input id="i4" type="radio" name="Gender" value="Male">Male<br><br>
+		Address         :<input id="i5" type="text" name="Address" required><br><br>
+		Telephone number:<input id="i6" type="number" name="Telephone number" maxlength="10" required><br><br>
+		Country code    :<input id="i7" type="number" name="code" required><br><br>
+		Email           :<input id="i8" type="email" name="email" autocomplete required><br><br>
+		Password        :<input id="i9" type="Password" name="Password" required><br><br>
+		Confirm Password:<input id="i10" type="Password" name="Pws" required><br><br>
+		<input type="submit" name="Submit" align="center">
+		<input type="reset" name="reset" align="center">
+
+
+
+
+	</fieldset>
+</form>
+<footer>&copy<b> 2018 Tezon Laptop Store.</b></footer>
+
+</body>
+</html>

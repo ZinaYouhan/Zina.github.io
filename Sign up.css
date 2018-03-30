@@ -1,0 +1,45 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background-image: url("back8.jpg");
+}
+form{
+	margin: 30px 400px;
+	align-content: center;
+
+}
+input{
+	align-content: center;
+}
+fieldset{
+	padding: 12px;
+
+}
+#i1{
+	margin-left: 70px;
+}
+#i2{
+	margin-left: 52px;
+}
+#i3{
+	margin-left: 80px;
+}
+#i5{
+	margin-left: 80px;
+}
+#i6{
+	margin-left: 16px;
+}
+#i7{
+	margin-left: 45px;
+}
+#i8{
+	margin-left: 91px;
+}
+#i9{
+	margin-left: 70px;
+}
+#i10{
+	margin-left: 20px;
+}

@@ -1,0 +1,285 @@
+body{
+	background-image: url("back5.jpg");
+}
+ul{
+	display: block;
+	padding: 0;
+	overflow: visible;
+	margin-top: 260px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	position: absolute;
+
+}
+.button1{
+	border-radius: 5px;
+	margin: 25px;
+}
+
+button a{
+	padding: 10px;
+	width: 75px;
+	position: relative;
+
+
+}
+a{
+	font-size: 21px; 
+
+}
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	text-decoration: none;
+}
+li{
+	float: left;
+	list-style-type: none;
+	height: 60px;
+	width: 165px;
+	background-color: black;
+	text-decoration: none;
+
+}
+li a:hover{
+	background-color: grey;
+}
+.button1{
+	margin-left: 10px;
+	border-style: solid;
+}
+button{
+	height: 30px;
+	position: relative;
+}
+#bttn{
+	height: 50px;
+}
+*{
+	box-sizing: border-box;
+}
+#slideshow { 
+    margin-top: 50px; 
+    position: relative; 
+    width: 100%;
+    height: 50%;
+
+     
+     
+}
+
+#slideshow > div { 
+    position: absolute;
+    border-size: 23px; 
+    margin-right: 15px;
+    margin-left: 15px;
+     
+   
+     
+}
+
+img{
+	border-style: solid;
+}
+
+.button{
+	float: left;
+	width: 28%;
+	position: relative;
+}
+h1, p{
+	color: white;
+	padding-top: 0;
+	width: 98%;
+	font-size: 19px;
+}
+p{
+	padding-left: 1px;
+}
+#cart{
+	margin-left: 10px;
+	padding-top: 15px;
+	float: left;
+	width: 12%;
+	position: relative;
+}
+input[type=text]{
+	float: left;
+	display: block;
+	text-align: left;
+	width: 25%;
+	margin-top: 6px;
+	margin-left: 900px;
+	padding: 14px;
+	position: absolute;
+	margin-right: 20px;
+}
+.searchbttn{
+	position: absolute;
+	margin-top: 6px;
+	margin-left: 1240px;
+}
+#cart1{
+	position: absolute;
+	margin-top: 6px;
+	margin-left: 850px;
+}
+h1{
+	float: left;
+	position: absolute;
+	margin-bottom: 12px;
+}
+.abc{
+	float: left;
+	width: 80%;
+}
+.sign{
+	float: left;
+	width: 80%;
+	margin-top: 12px;
+}
+.laptop{
+	margin-top: 425px;
+}
+#Toshiba,#Acer,#Asus,#Hp,#Dell,#Apple,#Samsung,#Lenovo{
+	background-color: darkblue;
+	color: white;
+	text-align: center;
+}
+.tlap1,.tlap2,.tlap3,.tlap4,.tlap5,.tlap6,.tlap7,.tlap8,.tlap9{
+	border-style: solid;
+	background-color: white;
+	border-radius: 12px;
+	padding: 10px;
+	margin-top: 20px;
+	width: 300px;
+	margin-right: 10px;
+	transition: width 2s,height 2s, padding 2s, transform 2s;
+	animation-name: hy;
+	animation-duration: 5s;
+	height: 320px;
+}
+@keyframes hy{
+			from{background-color: slateblue;}
+			to{background-color: white;
+			}
+		}
+.tlap1:hover{
+	width: 600px;
+	padding: 10px;
+	height: 280px;
+		}
+
+#details1,#details2,#details3,#details4,#details7,#details5,#details8,#details9,#details10,#details11,#details12,#details13,#details14,#details15,#details16,#details17,#details18,#details19,#details20,#details21,#details22,#details23,#details24,#details25{
+	display: none;
+	background-color: grey;
+	position: relative;
+	float: right;
+	margin: auto;
+	width: 50%;
+	padding:0;
+}
+#lap11{
+	float: left;
+}
+#details311,#details312,#details313,#details314,#details317,#details315,#details318,#details319,#details110,#details111,#details112,#details113,#details114,#details115,#details116,#details117,#details118,#details119,#details120,#details121,#details122,#details123,#details124,#details125{
+	position: relative;
+}
+.tlap2:hover{
+	width: 600px;
+	padding: 10px;
+	height: 280px;
+		}
+.tlap3:hover{
+	width: 600px;
+	padding: 10px;
+	height: 280px;
+		}
+.tlap4:hover{
+	width: 600px;
+	padding: 10px;
+	height: 280px;
+		}
+.tlap5:hover{
+	width: 600px;
+	padding: 10px;
+	height: 280px;
+		}		
+
+.tlap7:hover{
+	width: 600px;
+	padding: 10px;
+	height: 280px;
+}				
+.tlap1,.tlap2{
+	float: left;
+	width: 25%;
+}
+.tlap3{
+	float: left;
+	width: 25%;
+}
+.tlap4,.tlap5,.tlap7{
+	float: left;
+	width: 25%;
+}
+.lap2{
+	position: relative;
+	margin-top: 440px;
+
+}
+.lap1{
+	position: absolute;
+}
+.tlaps{
+	position: absolute;
+	float: left;
+	margin-top: 380px;
+}
+footer{
+	position: absolute;
+	margin-top: 3340px;
+	float: left;
+	color: white;
+}
+
+.Acer{
+	position: absolute;
+	margin-top: 420px;
+	width: 100%;
+}
+.Asus{
+	position: absolute;
+	margin-top: 900px;
+	width: 100%;
+}
+.Dell{
+	position: absolute;
+	margin-top: 1400px;
+	width: 100%;
+}
+.Lenovo{
+	position: absolute;
+	margin-top: 1375px;
+	width: 100%;
+
+}
+.Apple{
+	position: absolute;
+	margin-top: 2400px;
+	width: 100%;
+}
+.Samsung{
+	position: absolute;
+	margin-top: 1875px;
+	width: 100%;
+}
+.Alaps{
+	position: absolute;
+	float: left;
+	margin-top: 2300px;
+}
